@@ -90,7 +90,7 @@ module.exports = function(grunt) {
         },
 
         curl: {
-            'public/data/govuk-historic-visitors.json': 'https://www.performance.service.gov.uk/data/govuk/visitors?collect=visitors%3Asum&period=week&duration=1&filter_by=dataType%3Agovuk_visitors'
+            'public/data/govuk-historic-visitors.json': 'https://www.performance.service.gov.uk/data/govuk/visitors?collect=visitors%3Asum&period=week&duration=1'
         },
 
         appendData: {
